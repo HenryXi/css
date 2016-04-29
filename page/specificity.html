@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>specificity</title>
+    <style type="text/css">
+        * {
+            background-color: red
+        }
+
+        input {
+            background-color: blue
+        }
+
+        .test[type=button] {
+            background-color: green
+        }
+
+        #button {
+            background-color: yellow
+        }
+
+        .test {
+            background-color: brown
+        }
+
+        #div #button {
+            background-color: orange
+        }
+    </style>
+</head>
+<body>
+<div id="div">
+    <div id="button" type="button" class="test">
+    </div>
+</div>
+</body>
+</html>
