@@ -5,34 +5,33 @@
     <title>specificity</title>
     <style type="text/css">
         * {
-            background-color: red
+            background-color: red /* a=0 b=0 c=0, value = 0 */
         }
 
         input {
-            background-color: blue
+            background-color: blue/* a=0 b=0 c=1, value = 1 */
         }
 
         .test[type=button] {
-            background-color: green
+            background-color: green/* a=0 b=1+1 c=0, value = 20 */
         }
 
-        #button {
-            background-color: yellow
+        #target {
+            background-color: yellow/* a=1 b=0 c=0, value = 100 */
         }
 
         .test {
-            background-color: brown
+            background-color: brown/* a=0 b=1 c=0, value = 10 */
         }
 
-        #div #button {
-            background-color: orange
+        #div #target {
+            background-color: orange/* a=2 b=0 c=0, value=200 */
         }
     </style>
 </head>
 <body>
 <div id="div">
-    <div id="button" type="button" class="test">
-    </div>
+    <input id="target" type="button" class="test" value="test specificity"/>
 </div>
 </body>
 </html>
