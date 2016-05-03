@@ -15,6 +15,8 @@ selector belong different part.
 
 value = a * 100 + b * 10 + c 
 
+If you can't remember the rules there are some pictures [here](http://cssspecificity.com/) can help you.
+
 **Examples**
 
 ```
