@@ -19,7 +19,7 @@ If you can't remember the rules there are some pictures [here](http://cssspecifi
 
 **Examples**
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
