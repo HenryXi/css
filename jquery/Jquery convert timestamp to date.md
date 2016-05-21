@@ -2,7 +2,7 @@
 It is easy to use ``SimpleDateFormat `` format date in Java. There is no method in Javascript to format
 date directly. When we want format date in javascript we have to use Date method to get Day, Month, 
 Year and combine them together manually.
-```lang-js
+```javascript
 var timestamp = 1463568871;
 var date = new Date(timestamp * 1000);
 var day = date.getDate();
