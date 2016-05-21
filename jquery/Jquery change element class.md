@@ -4,7 +4,7 @@ add new one. Use ``addClass()`` function to add a class to each element. If you 
 separating each one with a space. This function won't delete exist class it only append the specified 
 class. Use ``removeClass()`` function to remove a class. Same as ``addClass()`` use space to separate
 multiple classes if you need remove more than one class.
-```lang-html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
