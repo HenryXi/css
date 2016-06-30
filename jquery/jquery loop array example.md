@@ -16,7 +16,6 @@ loop an array. Examples are here.
             alert('index:' + index + ', item:' + item);
         });
 
-
         //use forEach in Javascript
         array.forEach(function (item, index) {
             alert('index:' + index + ', item:' + item);
