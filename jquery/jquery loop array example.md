@@ -32,4 +32,4 @@ loop an array. Examples are here.
 </body>
 </html>
 ```
-`forEach` method is not support by all browsers. I recommend using Jquery or generic way in Javascript.
+`forEach` method is not supported by all browsers. I recommend using Jquery or generic way in Javascript.
