@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remove tr in table</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#remove").click(function () {
+                $("table tr:first").remove();
+            });
+            $("#add").click(function () {
+                $("table tr:last").after("<tr><td>New One</td><td>21</td><td>Guangzhou</td></tr>");
+            });
+        });
+    </script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>age</th>
+        <th>address</th>
+    </tr>
+    <tr>
+        <td>Henry</td>
+        <td>28</td>
+        <td>Beijing</td>
+    </tr>
+    <tr>
+        <td>Justin</td>
+        <td>28</td>
+        <td>Shanghai</td>
+    </tr>
+    <tr>
+        <td>Matthews</td>
+        <td>21</td>
+        <td>Guangzhou</td>
+    </tr>
+</table>
+<button id="remove">Remove first tr element</button>
+<button id="add">Add tr element after last one</button>
+</body>
+</html>
