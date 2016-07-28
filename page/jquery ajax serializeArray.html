@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery ajax serializeArray</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("button").click(function () {
+                x = $("form").serializeArray();
+                $.post('http://localhost:8090/post-json', x, function (data) {
+                    $('#content').html(data);
+                })
+            });
+        });
+    </script>
+
+</head>
+<body>
+<form action="">
+    name: <input type="text" name="name" value="HenryXi"/><br/>
+    age : <input type="text" name="age" value="28"/><br/>
+</form>
+<button>serialize and post</button>
+</body>
+</html>

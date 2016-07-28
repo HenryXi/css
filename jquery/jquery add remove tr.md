@@ -8,35 +8,44 @@ change the JQuery selector.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jquery remove add class</title>
+    <title>Remove tr in table</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {
-            $("button").click(function () {
-                $("p:first").removeClass("old").addClass('new new2');
+            $("#remove").click(function () {
+                $("table tr:first").remove();
+            });
+            $("#add").click(function () {
+                $("table tr:last").after("<tr><td>New One</td><td>21</td><td>Guangzhou</td></tr>");
             });
         });
     </script>
-    <style type="text/css">
-        .old {
-            font-size: 120%;
-            color: red;
-        }
-
-        .new {
-            font-size: 90%;
-            color: blue;
-        }
-        .new2 {
-            background-color: yellow;
-        }
-    </style>
 </head>
 <body>
-<h1>Jquery remove add class</h1>
-<p class="old">when click the button will change the style of this paragraph.</p>
-<p>This paragraph won't be changed.</p>
-<button>Change</button>
+<table>
+    <tr>
+        <th>Name</th>
+        <th>age</th>
+        <th>address</th>
+    </tr>
+    <tr>
+        <td>Henry</td>
+        <td>28</td>
+        <td>Beijing</td>
+    </tr>
+    <tr>
+        <td>Justin</td>
+        <td>28</td>
+        <td>Shanghai</td>
+    </tr>
+    <tr>
+        <td>Matthews</td>
+        <td>21</td>
+        <td>Guangzhou</td>
+    </tr>
+</table>
+<button id="remove">Remove first tr element</button>
+<button id="add">Add tr element after last one</button>
 </body>
 </html>
 ```
