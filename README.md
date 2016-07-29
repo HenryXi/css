@@ -10,6 +10,7 @@ technology. Hope these blog help you
 * [Jquery change element class](http://www.henryxi.com/jquery-change-element-class)
 * [Javascript timestamp to date format](http://www.henryxi.com/javascript-timestamp-to-date-format)
 * [JQuery loop array example](http://www.henryxi.com/jquery-loop-array-example)
+* [JQuery append() prepend() after() and before()](http://www.henryxi.com/jquery-append-prepend-after-and-before)
 
 **CSS**
 
