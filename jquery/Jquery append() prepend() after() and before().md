@@ -1,5 +1,5 @@
 # JQuery append() prepend() after() and before()
-There are some methods in JQuery change the content of page. Different method add the element to different position.
+There are some methods in JQuery change the content of page. Different methods add the element to different position.
 In this blog I will show you the different of them. You can also save the following code as html file and run it.
 Click the different button can add the different element to the page.
 
@@ -47,6 +47,10 @@ Click the different button can add the different element to the page.
 </body>
 </html>
 ```
+
+**result**
+
+![result](http://a.disquscdn.com/uploads/mediaembed/images/4015/8497/original.jpg)
 
 * `append` will add the element **in** the end of selector.
 * `prepend` will add the element **in** the head of selector.
