@@ -1,6 +1,6 @@
 # Front End tutorial
-There are lot of technologies in Front End. In this tutorial I will show you how to use common page front-end 
-technology. Hope these blog help you
+There are lots of technologies in Front End. In this tutorial I will show you how to use common page front-end 
+technology. Hope these blogs help you.
 
 **Javascript & JQuery**
 
